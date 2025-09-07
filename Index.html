@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Dammyartacademy interaction page</title>
+
+</head>
+
+<body>
+    <h1>Welcome to Dammyartacademy Interaction page 🚀</h1>
+
+    <!-- Light/Dark Mode Toggle -->
+    <button id="themeToggle">Click Me To change from Light Mode to Dark Mode</button>
+
+
+    <br><br>
+    <div class="counter-section">
+
+        <h2> Counter Game </h2>
+        <button id="decrease">-</button>
+        <span id="counter">0</span>
+        <button id="increase">+</button>
+    </div>
+
+    <!-- Collapsible FAQ -->
+    <div class="faq-section">
+        <h2>FAQ ❓</h2>
+        <button id="faqToggle">Who is Dammyartacademy?</button>
+        <p id="faqAnswer" style="display: none;">Dammyartacademy is an online platform that offers art tutorials and
+            resources for artists of all levels 🌍</p>
+    </div>
+    <br><br>
+
+    <!-- Form Section -->
+    <form id="contactForm">
+        <h2>Contact Us 📋</h2>
+        <label>Name: <input type="text" id="name" placeholder="Enter your Fullname" /></label><br><br>
+        <label>Email: <input type="text" id="email" placeholder="Enter a Valid Email" /></label><br><br>
+        <label>Password: <input type="password" id="password" placeholder="Enter Your Password" /></label><br><br>
+        <button type="submit">Submit</button>
+        <p id="formMessage"></p>
+    </form>
+    </form>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
